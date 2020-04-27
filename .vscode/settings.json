@@ -1,0 +1,33 @@
+{
+  // default
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "go.testFlags": [
+    "-v"
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.history": true,
+    "**/vendor": true
+  },
+  "search.exclude": {
+    "**/vendor": true,
+    "**/*.pb.go": true,
+  },
+  "go.gotoSymbol.ignoreFolders": [
+    "vendor"
+  ],
+  "go.useLanguageServer": false,
+  "go.vetOnSave": "off",
+  "go.lintTool": "revive",
+  "go.lintFlags": [
+    "-exclude=vendor/...",
+    "-config=${workspaceFolder}/revive.toml"
+  ],
+  "search.showLineNumbers": true,
+  "search.smartCase": true,
+  "search.useIgnoreFiles": false,
+  "search.useGlobalIgnoreFiles": false
+}
