@@ -15,3 +15,5 @@
 
 vender/
 dist/
+go.mod
+go.sum
